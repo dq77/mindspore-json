@@ -2,8 +2,8 @@ LICENSE
 README.md
 setup.py
 mindspore-json/__init__.py
-mindspore-json/basic.ipynb.py
-mindspore-json/handwritten digit recognition.ipynb.py
+mindspore-json/basic.ipynb
+mindspore-json/handwritten digit recognition.ipynb
 mindspore-json/kmeans.py
 mindspore-json/linear.py
 mindspore-json/logistic.py

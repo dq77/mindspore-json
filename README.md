@@ -28,7 +28,5 @@ twine upload dist/*
 
 pip install mindspore-json -t D:\Downloads
 pip install mindspore-json -i https://pypi.org/simple -t D:\Downloads
-pip install mindspore-json -t D:\Downloads
-pip install mindspore-json -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple -t D:\Downloads
 
 ```
