@@ -25,4 +25,10 @@ from mindspore_json import tree
 python setup.py sdist bdist_wheel
 
 twine upload dist/*
+
+pip install mindspore-json -t D:\Downloads
+pip install mindspore-json -i https://pypi.org/simple -t D:\Downloads
+pip install mindspore-json -t D:\Downloads
+pip install mindspore-json -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple -t D:\Downloads
+
 ```

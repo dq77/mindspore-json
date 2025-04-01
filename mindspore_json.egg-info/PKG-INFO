@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: mindspore-json
-Version: 0.1.1
+Version: 0.1.2
 Summary: MindSpore JSON utilities and machine learning models
 Home-page: https://github.com/dq77/mindspore-json
 Author: dq77
@@ -46,4 +46,7 @@ from mindspore_json import tree
 python setup.py sdist bdist_wheel
 
 twine upload dist/*
+
+pip install mindspore-json -t D:\Downloads
+pip install mindspore-json -i https://pypi.org/simple -t D:\Downloads
 ```

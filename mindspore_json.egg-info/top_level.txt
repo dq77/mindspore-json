@@ -1,2 +1,1 @@
-json2
 mindspore-json
