@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mindspore-json",
-    version="0.1.0",
+    version="0.1.1",
     author="dq77",
     description="MindSpore JSON utilities and machine learning models",
     long_description=long_description,

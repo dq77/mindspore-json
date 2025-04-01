@@ -22,8 +22,7 @@ from mindspore_json import tree
 ## Usage
 
 ```
-import json2
+python setup.py sdist bdist_wheel
 
-a = json2.load_file(r'/home/user/myjson.json')
-json2.dump_file(r'/home/user/myjson.json', a)
+twine upload dist/*
 ```

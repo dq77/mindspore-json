@@ -1,13 +1,12 @@
 Metadata-Version: 2.2
 Name: mindspore-json
-Version: 0.1.0
+Version: 0.1.1
 Summary: MindSpore JSON utilities and machine learning models
 Home-page: https://github.com/dq77/mindspore-json
 Author: dq77
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Classifier: Framework :: MindSpore
 Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
@@ -44,8 +43,7 @@ from mindspore_json import tree
 ## Usage
 
 ```
-import json2
+python setup.py sdist bdist_wheel
 
-a = json2.load_file(r'/home/user/myjson.json')
-json2.dump_file(r'/home/user/myjson.json', a)
+twine upload dist/*
 ```
